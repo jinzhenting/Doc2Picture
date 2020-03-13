@@ -7,7 +7,7 @@
         /// </summary>
         /// <param name="cdr_path">CDR位置</param>
         /// <param name="png_path">PNG位置</param>
-        public static void Topng(string cdr_path, string png_path)
+        public static void ToPNG(string cdr_path, string png_path)
         {
             Corel.Interop.CorelDRAW.Application coreldraw = new Corel.Interop.CorelDRAW.Application();
             coreldraw.OpenDocument(cdr_path, 1);
@@ -34,7 +34,7 @@
         /// </summary>
         /// <param name="cdr_path">CDR位置</param>
         /// <param name="jpg_path">JPG位置</param>
-        public static void Tojpg(string cdr_path, string jpg_path)
+        public static void ToJPG(string cdr_path, string jpg_path)
         {
             Corel.Interop.CorelDRAW.Application coreldraw = new Corel.Interop.CorelDRAW.Application();
             coreldraw.OpenDocument(cdr_path, 1);
@@ -61,7 +61,7 @@
         /// </summary>
         /// <param name="cdr_path">CDR位置</param>
         /// <param name="pdf_path">PDF位置</param>
-        public static void Topdf(string cdr_path, string pdf_path) {
+        public static void ToPDF(string cdr_path, string pdf_path) {
             Corel.Interop.CorelDRAW.Application coreldraw = new Corel.Interop.CorelDRAW.Application();
             coreldraw.OpenDocument(cdr_path, 1);
             coreldraw.ActiveDocument.PublishToPDF(pdf_path);
