@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Windows.Forms;
-namespace DocumentsToPicture
+namespace Doc2Picture
 {
     public static class PDF
     {

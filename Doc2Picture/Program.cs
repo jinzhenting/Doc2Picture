@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace DocumentsToPicture
+namespace Doc2Picture
 {
     static class Program
     {
@@ -15,7 +15,7 @@ namespace DocumentsToPicture
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Index());
+            Application.Run(new HomeForm());
         }
     }
 }

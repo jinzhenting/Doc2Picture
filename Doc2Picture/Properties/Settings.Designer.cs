@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DocumentsToPicture.Properties
+namespace Doc2Picture.Properties
 {
 
 

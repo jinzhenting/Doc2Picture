@@ -4,7 +4,7 @@ using System.Windows.Forms;
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-namespace DocumentsToPicture
+namespace Doc2Picture
 {
     class DOC
     {

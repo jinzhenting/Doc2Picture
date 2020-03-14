@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace DocumentsToPicture
+namespace Doc2Picture
 {
-    public partial class Index : Form
+    public partial class HomeForm : Form
     {
-        public Index()
+        public HomeForm()
         {
             InitializeComponent();
         }

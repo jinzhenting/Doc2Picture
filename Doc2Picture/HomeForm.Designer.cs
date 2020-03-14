@@ -1,6 +1,6 @@
-﻿namespace DocumentsToPicture
+﻿namespace Doc2Picture
 {
-    partial class Index
+    partial class HomeForm
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -33,7 +33,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(536, 55);
+            this.button1.Location = new System.Drawing.Point(774, 39);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -41,7 +41,7 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Index
+            // HomeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -49,7 +49,7 @@
             this.Controls.Add(this.button1);
             this.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "Index";
+            this.Name = "HomeForm";
             this.Text = "文档转图片";
             this.ResumeLayout(false);
 
